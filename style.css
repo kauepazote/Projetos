@@ -1,0 +1,91 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#020617;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #CBD5F5;
+
+}
+
+
+header{
+    padding: 25px;
+    background-color:#0F172A;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 22px;
+    border-bottom: 1px solid #1e293b;
+}
+
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    border-radius: 12px;
+    background-color: #0F172A;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+
+}
+
+.moedas{
+    
+    display: flex;
+    gap: 10px;
+    margin: 20px 0; 
+}
+
+
+
+label{
+    margin:7px;
+}
+
+#valor{
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #020617;
+    border: 1px solid #1E293B;;
+    border-radius: 8px;
+    color: #E5E7EB;
+    outline: none;
+}
+
+
+select{
+
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #020617;
+    border: 1px solid #1E293B;
+    color: #E5E7EB;
+    outline: none;
+    cursor: pointer;
+}
+
+
+
+#calc{
+    padding: 12px;
+    background-color: #38BDF8;
+    color: #020617;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+#mostrar{
+    margin-top: 20px;
+    font-size: 18px;
+    color:#22C55E;
+}
+
+
